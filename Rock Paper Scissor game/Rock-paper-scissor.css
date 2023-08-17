@@ -1,0 +1,70 @@
+p{
+    font-family : Arial, Helvetica, sans-serif;
+    color : white;
+    font-size : 30px;
+}
+
+.title{
+    font-weight : bold;
+}
+.buttons{
+    border-color: gold; ;
+    height : 120px;
+    width : 120px;
+    margin-right : 10px;
+    border-radius : 60px;
+    border-style : solid;
+    font-size : 18px;
+    font-family : Arial, Helvetica, sans-serif;
+    background-color:rgb(25, 25, 25);;
+    color : white;
+    border-width : 2px;
+    font-weight : bold;
+    cursor : pointer;
+    transition: background-color , 0.15s;
+    transition: color , 0.15s;
+}
+
+.buttons:hover{
+    background-color: white;
+    color : black;
+}
+
+.result{
+    font-size : 25px;
+    font-weight : bold;
+    margin-top : 0px;
+}
+
+.reset,.autoplay-button{
+    height : 37px;
+    width : 115px;
+    font-size : 15px;
+    border-radius: 16px;
+    border-color : gold;
+    font-family : Arial, Helvetica, sans-serif;
+    color : white ; 
+    background-color: rgb(25,25,25);
+    border-style : solid;
+    cursor : pointer;
+}
+
+
+.reset:hover , .autoplay-button:hover{
+    background-color: white;
+    color : black;
+}
+
+.images{
+    height : 50px;
+}
+
+.moves{
+    font-size: 20px;
+}
+
+.score{
+    margin-top: 60px;
+    font-size : 18px;
+}
+
